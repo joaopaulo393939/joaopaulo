@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<div id="clock"></div>
+    <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+         
+          // Add leading zero to numbers < 10
+          m = checkTime(m);
+          s = checkTime(s);
+         
+          document.getElementById('clock').textContent = `${h}:${m}:${s}`;
+          setTimeout(startTime, 500);
+        }
+       
+        function checkTime(i) {
+          return i < 10 ? "0" + i : i;
+        }
+       
+        // Start the clock when page loads
+        window.onload = startTime;
+      </script>
+      Relógio RECUPERAÇÃO AV03 - 
+      APARECIDA DA SILVA FERREIRA
+      •
+      4 de abr. (editado: 11 de abr.)
+      Os alunos que precisam fazer RECUPERAÇÃO AV03 DEVEM ENTREGAR A CUSTOMIZAÇÃO DO RELÓGIO EM HTML E CSS( minimo background, centralização ou relógio inserido em um contexto  estático).
+      
+      
+      
+      comando no console
+      node console.js
+      -----------------------------------------------------------
+      // Imprime uma mensagem no console 
+      console.log("Hello, World!"); 
+      -----------------------------------------------------------------
+       
+      // Exibe um alerta no navegador 
+      alert("Bem-vindo ao JavaScript!");
+      --------------------------------------------------------------------------------
+      // Declaração de variáveis
+      let nome = "João"; // String (texto) 
+      const idade = 25; // Number (número inteiro) 
+      let altura = 1.75; // Number (número decimal) 
+      let estudando = true; // Boolean (true/false) 
+      
+       
+      // Exibindo valores 
+      console.log(`Nome: ${nome}`); 
+      console.log(`Idade: ${idade} anos`); 
+      console.log(`Altura: ${altura}m`); 
+      console.log(`Estudando: ${estudando}`);
+      ----------------------------------------------------------------------
+      let a = 10; 
+      let b = 3; 
+      
+      // Operações básicas 
+      console.log(a + b); // Soma: 13
+      console.log(a - b); // Subtração: 7 
+      console.log(a * b); // Multiplicação: 30
+      c
+      onsole.log(a / b); // Divisão: ~3.333 
+      console.log(a % b); // Resto da divisão: 1 
+      console.log(a ** b); // Exponenciação: 1000
+      -------------------------------------------------------------------------------------------
+      // If-else 
+      let hora = 14;
+      
+      
+      if (hora < 12) {
+      console.log("Bom dia!");
+      } 
+      else if (hora < 18) {
+      console.log("Boa tarde!");
+      } 
+      else {
+      console.log("Boa noite!");
+      } 
+      
+      // Operador ternário 
+      let temperatura = 28; 
+      let clima = temperatura > 25 ? "Quente" : "Ameno"; 
+      console.log(`O clima está ${clima}`);Relógio RECUPERAÇÃO AV03 - 
+      APARECIDA DA SILVA FERREIRA
+      •
+      4 de abr. (editado: 11 de abr.)
+      Os alunos que precisam fazer RECUPERAÇÃO AV03 DEVEM ENTREGAR A CUSTOMIZAÇÃO DO RELÓGIO EM HTML E CSS( minimo background, centralização ou relógio inserido em um contexto  estático).
+      
+      
+      
+    
+      
+      // Imprime uma mensagem no console 
+      console.log("Hello, World!"); 
+    
+       
+      // Exibe um alerta no navegador 
+      alert("Bem-vindo ao JavaScript!");
+     
+      // Declaração de variáveis
+      let nome = "João"; // String (texto) 
+      const idade = 25; // Number (número inteiro) 
+      let altura = 1.75; // Number (número decimal) 
+      let estudando = true; // Boolean (true/false) 
+      
+       
+      // Exibindo valores 
+      console.log(`Nome: ${nome}`); 
+      console.log(`Idade: ${idade} anos`); 
+      console.log(`Altura: ${altura}m`); 
+      console.log(`Estudando: ${estudando}`);
+     
+      let a = 10; 
+      let b = 3; 
+      
+      // Operações básicas 
+      console.log(a + b); // Soma: 13
+      console.log(a - b); // Subtração: 7 
+      console.log(a * b); // Multiplicação: 30
+      c
+      onsole.log(a / b); // Divisão: ~3.333 
+      console.log(a % b); // Resto da divisão: 1 
+      console.log(a ** b); // Exponenciação: 1000
+      
+      // If-else 
+      let hora = 14;
+      
+      
+      if (hora < 12) {
+      console.log("Bom dia!");
+      } 
+      else if (hora < 18) {
+      console.log("Boa tarde!");
+      } 
+      else {
+      console.log("Boa noite!");
+      } 
+      
+      // Operador ternário 
+      let temperatura = 28; 
+      let clima = temperatura > 25 ? "Quente" : "Ameno"; 
+      console.log(`O clima está ${clima}`);
